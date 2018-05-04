@@ -1,5 +1,5 @@
 CREATE TABLE user_reviews (
-    id int NOT NULL AUTO_INCREMENT primary keyrating,
+    id int NOT NULL AUTO_INCREMENT primary key,
     order_id int(11),
     product_id int(11),
     user_id int(11),
