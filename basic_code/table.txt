@@ -1,0 +1,10 @@
+CREATE TABLE user_reviews (
+    id int NOT NULL AUTO_INCREMENT primary keyrating,
+    order_id int(11),
+    product_id int(11),
+    user_id int(11),
+    rating float(2,2),
+    review text,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME ON UPDATE CURRENT_TIMESTAMP
+);
