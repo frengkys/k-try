@@ -21,7 +21,7 @@ ALGORITHM :
 BASIC_CODE :
 
 ```sh
-$ cd basic_code
+$ cd basic_code/rest_api
 $ composer install
 $ php artisan key:generate
 $ php artisan migrate
