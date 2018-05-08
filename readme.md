@@ -13,6 +13,8 @@ basic_code is used to make REST API service
 ```sh
 $ git clone https://github.com/frengkys/k-try.git
 ```
+copy .env.example to .env
+then set database with your configuration
 
 ALGORITHM :
 1. just put it in on server(apache,nginx,etc...)
@@ -25,9 +27,24 @@ $ cd basic_code/rest_api
 $ composer install
 $ php artisan key:generate
 $ php artisan migrate
-$ project run in localhost:8000/
-go to localhost:8000/api
+$ php artisan serve
 ```
+project will run in localhost:8000/
+go to localhost:8000/api
+
+### Basic route
+
+ - CREATE : POST => /user-reviews/
+ - READ : GET => /user-reviews/
+ - UPDATE : POST => /user-reviews/{id}
+ - DELETE : DELETE => /user-reviews/{id}
+
+for post data
+- order_id
+- product_id
+- user_id
+- rating
+- review
 
 License
 ----
