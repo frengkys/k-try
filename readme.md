@@ -1,6 +1,7 @@
 # K-TRY
 
-There is 2 folder, algorithm create with php and basic_code with laravel
+There is two folder, algorithm created with php and basic_code with laravel. 
+basic_code is used to make REST API service
 
 ### Tech
 
