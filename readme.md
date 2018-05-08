@@ -9,14 +9,17 @@ There is 2 folder, algorithm create with php and basic_code with laravel
 * [Mysql]
 
 ### Installation
+```sh
+$ git clone https://github.com/frengkys/k-try.git
+```
 
-for algorithm project, just put it in on server(apache,nginx,etc...)
-then run it
+ALGORITHM :
+1. just put it in on server(apache,nginx,etc...)
+2. then run it
 
-For basic_code...
+BASIC_CODE :
 
 ```sh
-$ git clone
 $ cd basic_code
 $ composer install
 $ php artisan key:generate
