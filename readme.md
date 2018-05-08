@@ -13,14 +13,15 @@ basic_code is used to make REST API service
 ```sh
 $ git clone https://github.com/frengkys/k-try.git
 ```
-copy .env.example to .env
-then set database with your configuration
 
 ALGORITHM :
 1. just put it in on server(apache,nginx,etc...)
 2. then run it
 
 BASIC_CODE :
+
+copy .env.example to .env
+then set database with your configuration
 
 ```sh
 $ cd basic_code/rest_api
